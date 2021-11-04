@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 const byte RX = 2;
-const byte TX = 4;
+const byte TX = 3;
 SoftwareSerial mySerial=SoftwareSerial(RX,TX);
 String inputString = "";         // a String to hold incoming data
 bool stringComplete = false; 
